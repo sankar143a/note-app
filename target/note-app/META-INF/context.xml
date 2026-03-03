@@ -1,8 +1,0 @@
-<Context>
-    <Resource name="jdbc/NoteApp" auth="Container"
-              type="javax.sql.DataSource"
-              maxTotal="20" maxIdle="5" maxWaitMillis="10000"
-              username="root" password="Sankarrao@8465"
-              driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/noteapp?useSSL=false&amp;serverTimezone=UTC"/>
-</Context>
